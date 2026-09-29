@@ -1,0 +1,10 @@
+name: firts_action
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greatting
+        run: echo "Hello Word"
+      - name: Print goodBye
+        run: echo "Done - Bye"
